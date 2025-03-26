@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Methods</title>
+
+  <!-- Método Externo: vinculación al archivo .css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Método Interno: estilos dentro del mismo archivo HTML -->
+  <style>
+    p {
+      background-color: green;
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Este div será estilizado por el archivo CSS externo -->
+  <div>Style me via the external method!</div>
+
+  <!-- Este párrafo será estilizado por el método interno -->
+  <p>I would like to be styled with the internal method, please.</p>
+
+  <!-- Este botón será estilizado con estilos inline -->
+  <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+
+</body>
+</html>
